@@ -38,14 +38,10 @@
         </p>
 
         <div class="flex gap-x-2 mt-7">
-                            <a href="/partners"
-                                            id="find-partner-btn"
-                                        class="inline-block rounded-sm border border-gray-300 px-4 py-2 hover:border-gray-400">
-                        View All Partners
-                </a>
+
             
             <a href="/login"
-               class="inline-flex items-center rounded-sm bg-red-600 px-4 py-1 font-medium text-white hover:bg-red-600/90">
+               class="inline-flex items-center rounded-sm bg-red-600 px-4 py-2 font-medium text-white hover:bg-red-600/90">
               Match with a Partner
             </a>
         </div>
@@ -65,7 +61,7 @@
 
                 
                 <div class="absolute inset-0 w-full h-full pointer-events-none">
-                    <img src="/assets/images/tall-cards/card-byte5.png"
+                    <img src="{{ asset('images/eng.jpg') }}"
                          alt="byte5"
                          class="object-cover object-left-top w-full h-full">
 
@@ -121,7 +117,7 @@
 
                 
                 <div class="absolute inset-0 w-full h-full pointer-events-none">
-                    <img src="/assets/images/tall-cards/card-curotec.png"
+                    <img src="{{ asset('images/eng.jpg') }}"
                          alt="Curotec"
                          class="object-cover object-left-top w-full h-full">
 
